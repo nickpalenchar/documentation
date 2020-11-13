@@ -1,4 +1,5 @@
 environment: default
+integrations_img_url: "https://dd-integrations.imgix.net/"
 imgix:
   header_jpg: "?ch=Width&fit=max&fm=jpg&auto=format&lossless=true"
   header_png: "?ch=Width&fit=max&fm=png&auto=format&lossless=1"
@@ -59,8 +60,8 @@ footer_scripts:
   - adroll: false
 
 # Docs allowed regions for redirecting
-allowedRegions: 
+allowedRegions:
   - name: US
     value: us
   - name: EU
-    value: eu 
+    value: eu
