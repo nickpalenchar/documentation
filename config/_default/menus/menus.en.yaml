@@ -3409,6 +3409,14 @@ api_v2:
     url: /api/v2/pagerduty-integration/
     identifier: PagerDuty Integration
     generated: true
+  - name: Processes
+    url: /api/v2/processes/
+    identifier: Processes
+    generated: true
+  - name: Get all processes
+    parent: Processes
+    url: '#get-all-processes'
+    generated: true
   - name: Roles
     url: /api/v2/roles/
     identifier: Roles
