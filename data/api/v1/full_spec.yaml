@@ -5066,6 +5066,7 @@ components:
           $ref: '#/components/schemas/OrganizationSubscription'
       type: object
     OrganizationBilling:
+      deprecated: true
       description: A JSON array of billing type.
       example:
         type: parent_billing
@@ -5088,8 +5089,6 @@ components:
           $ref: '#/components/schemas/OrganizationSubscription'
       required:
       - name
-      - subscription
-      - billing
       type: object
     OrganizationCreateResponse:
       description: Response object for an organization creation.
@@ -5119,6 +5118,7 @@ components:
           $ref: '#/components/schemas/Organization'
       type: object
     OrganizationSubscription:
+      deprecated: true
       description: Subscription definition.
       example:
         type: pro
@@ -18466,6 +18466,12 @@ tags:
   name: Hosts
 - description: Get a list of IP prefixes belonging to Datadog.
   name: IP Ranges
+- description: '[Check API version 2](/api/v2/incident-services/).'
+  name: Incident Services
+- description: '[Check API version 2](/api/v2/incident-teams/).'
+  name: Incident Teams
+- description: '[Check API version 2](/api/v2/incidents/).'
+  name: Incidents
 - description: 'Manage your Datadog API and application keys.
 
 
